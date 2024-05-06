@@ -23,8 +23,16 @@ class HandTest {
         assertTrue(handTwoPair2.compareTo(handTwoPair)>0);
         assertTrue(handQuinteFlush2.compareTo(handQuinteFlush)>0);
         assertTrue(handQuinte.compareTo(handCouleur)<0);
-        assertTrue(handNothing2.compareTo(handNothing)<0);;
+        assertTrue(handNothing2.compareTo(handNothing)<0);
+    }
 
+    @Test
+    void changeCard(){
+        assertEquals(Index.VALET,handFull.getHandPlayed().get(0).getIndex());
+        assertEquals(Couleur.COEUR,handFull.getHandPlayed().get(0).getCouleur());
+        handFull.changeCard(1,new Carte(Index.AS,Couleur.CARREAU));
+        assertEquals(Index.AS,handFull.getHandPlayed().get(0).getIndex());
+        assertEquals(Couleur.CARREAU,handFull.getHandPlayed().get(0).getCouleur());
     }
 
 

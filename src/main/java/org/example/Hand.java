@@ -155,21 +155,7 @@ public class Hand implements Comparable<Hand> {
     }
 
 
-    @Override
-    public int compareTo(Hand other) {
-        String[] parts = this.nameOfHand().split("/");
-        String[] otherParts = other.nameOfHand().split("/");
-        String firstLetter = parts[0];
-        String firstLetterOther = otherParts[0];
-        int res = firstLetter.compareTo(firstLetterOther);
-        if (res!=0){return -res;}
-        else{
-            int j = 1;
-            while(Integer.parseInt(parts[j])==(Integer.parseInt(otherParts[j])) && j<(Integer.min(parts.length,otherParts.length)-1))
-            {j++;}
-            return Integer.parseInt(parts[j])-Integer.parseInt(otherParts[j]);
-        }
-    }
+
 
     private String nameOfHand(){
         String name="";
@@ -184,6 +170,22 @@ public class Hand implements Comparable<Hand> {
         if(!this.gotQuinteFlush().isEmpty()){name= this.gotQuinteFlush();}
         return name;
 
+    }
+
+    @Override
+    public int compareTo(Hand other) {
+        String[] parts = this.nameOfHand().split("/");
+        String[] otherParts = other.nameOfHand().split("/");
+        String firstLetter = parts[0];
+        String firstLetterOther = otherParts[0];
+        int res = firstLetter.compareTo(firstLetterOther);
+        if (res!=0){return -res;}
+        else{
+            int j = 1;
+            while(Integer.parseInt(parts[j])==(Integer.parseInt(otherParts[j])) && j<(Integer.min(parts.length,otherParts.length)-1))
+            {j++;}
+            return Integer.parseInt(parts[j])-Integer.parseInt(otherParts[j]);
+        }
     }
 
 

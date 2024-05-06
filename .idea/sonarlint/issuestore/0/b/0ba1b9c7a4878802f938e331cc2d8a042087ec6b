@@ -1,9 +1,9 @@
 
-“
-java:S3776"PRefactor this method to reduce its Cognitive Complexity from 6 to the 2 allowed.(Çµí‘8Óú…Öô1J$c4bb10cf-de7c-4cae-bde3-db337506c30b
-r	java:S106"+Replace this use of System.out by a logger.(Õ”´¯ùÿÿÿÿ8àú…Öô1J$197c21d1-4732-48e1-b2cb-4de8a83040d9
-m	java:S106"+Replace this use of System.out by a logger.(Ñº€¶8áú…Öô1J$327a2b1f-7567-4d57-8764-f8766701d0a3
-r	java:S106"+Replace this use of System.out by a logger.(½ÿ»ˆüÿÿÿÿ8ãú…Öô1J$2f05e53e-a8cc-4580-96ba-f70bf5c4b729
-r	java:S106"+Replace this use of System.out by a logger.(¦ßí¤øÿÿÿÿ8åú…Öô1J$e221af77-eb54-47a0-9541-77603f05482a
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8çú…Öô1J$abbf9c21-96f3-4803-bb37-8a047eaee164
+m
+java:S3776"PRefactor this method to reduce its Cognitive Complexity from 7 to the 2 allowed.(Çµí‘8Çõåô1
+L	java:S106"+Replace this use of System.out by a logger.(Õ”´¯ùÿÿÿÿ8Íõåô1
+G	java:S106"+Replace this use of System.out by a logger.(Ñº€¶8Îõåô1
+L	java:S106"+Replace this use of System.out by a logger.(½ÿ»ˆüÿÿÿÿ8Îõåô1
+G	java:S106 "+Replace this use of System.out by a logger.(®ªƒ8Ïõåô1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ñõåô1

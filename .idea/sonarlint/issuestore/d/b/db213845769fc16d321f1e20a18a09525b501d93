@@ -1,21 +1,21 @@
 
 k
-java:S1604-"(Make this anonymous inner class a lambda(ÔË‘€8êæµÔô1J$5f57373b-69a7-4d45-bbd3-d3eb561b8633
+java:S1604-"(Make this anonymous inner class a lambda(ÔË‘€8êæµÔô1J$5be962d3-1f53-4c37-bf62-6106a398a702
 
-java:S1210Ÿ"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(€…£€8±éµÔô1J$1ce81272-db61-4a2f-852d-869728b309b0
+java:S1210°"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(€…£€8×Œåô1J$1de8d2eb-72bd-44a4-85c7-6efdc3b65717
 “
-java:S3776"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(­¡†Ú8¾éµÔô1J$ce7ee47c-01ec-47b7-b418-79cff56833c1
+java:S3776"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(­¡†Ú8¾éµÔô1J$fdb9891c-2a30-4a68-a481-9619d479a0b0
 ˜
-java:S3776+"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(´—šÇøÿÿÿÿ8ÁéµÔô1J$6cc4da3e-2870-41a2-990e-934ca27994c8
+java:S3776+"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(´—šÇøÿÿÿÿ8ÁéµÔô1J$25076c9f-4d3c-414f-bbe7-0ea4851b2e0c
 “
-java:S3776y"PRefactor this method to reduce its Cognitive Complexity from 6 to the 2 allowed.(€İâÏ8ÛéµÔô1J$00a60ba8-9d39-416f-8668-e31621fcb321
+java:S3776y"PRefactor this method to reduce its Cognitive Complexity from 6 to the 2 allowed.(€İâÏ8ÛéµÔô1J$1425dd7f-352a-47c2-b5ef-6c99c911c706
 `
-java:S1116‡"Remove this empty statement.(·–ÙÈ8àéµÔô1J$36930a2f-41b6-4c63-a281-11ec7c0314ff
+java:S1116‡"Remove this empty statement.(·–ÙÈ8àéµÔô1J$5f788ea7-d80e-4454-bdce-ac4892598684
 ™
-java:S3776‹"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(¥èÒùÿÿÿÿ8áéµÔô1J$1741246d-9400-4043-a6fe-4424e25758c0
+java:S3776‹"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(¥èÒùÿÿÿÿ8áéµÔô1J$2407b47d-9c8f-4871-bd86-9a92a11abfb7
 ”
-java:S3776•"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ûŠÉØ8äéµÔô1J$8158faf0-4be8-41da-82d9-9833cf72e0ab
-”
-java:S3776Ÿ"PRefactor this method to reduce its Cognitive Complexity from 5 to the 2 allowed.(€…£€8æéµÔô1J$2aca5605-a6e1-438d-bb20-902c50e3507b
+java:S3776•"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ûŠÉØ8äéµÔô1J$1704bbcd-eebd-43fd-84dc-bd1ed70adaa4
 •
-java:S3776®"QRefactor this method to reduce its Cognitive Complexity from 11 to the 2 allowed.(‰îÒÄ8ëéµÔô1J$bdd8b3e8-5411-4327-8ad3-b4b269f406e1
+java:S3776 "QRefactor this method to reduce its Cognitive Complexity from 11 to the 2 allowed.(‰îÒÄ8ëéµÔô1J$ca260dd4-0de8-41af-8767-367c445adc8e
+”
+java:S3776°"PRefactor this method to reduce its Cognitive Complexity from 5 to the 2 allowed.(€…£€8øŒåô1J$f70ede1c-78aa-4723-bbf7-fe32041d9045

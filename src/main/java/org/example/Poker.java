@@ -8,7 +8,6 @@ public class Poker {
     private Deck deck;
     private List<Player> playersRegistered=new ArrayList<>();
     private int numberOfCardByHand=5;
-    private Scanner clavier= new Scanner(System.in);
 
 
 
@@ -28,12 +27,31 @@ public class Poker {
         return playersRegistered;
     }
 
-    public Player getWinner(){
-        Player winner=this.playersRegistered.get(0);
-        for (int i = 1;i<this.playersRegistered.size();i++){
-            if(this.playersRegistered.get(i).getHand().compareTo(winner.getHand())>0){
-                winner=this.playersRegistered.get(i);}}
-        return winner;
+    public List<Player> getWinner(){
+        List<Player> winners= new ArrayList<>();
+        winners.add(this.playersRegistered.get(0));
+        for (int i = 1;i<this.playersRegistered.size();i++) {
+            boolean isBetter = true;
+            boolean isEquals = true;
+            for (Player winner : winners) {
+                if (this.playersRegistered.get(i).getHand().compareTo(winner.getHand()) < 0) {
+                    isBetter = false;
+                    isEquals=false;
+                } else if (this.playersRegistered.get(i).getHand().compareTo(winner.getHand()) == 0) {
+                    isBetter = false;
+                } else {
+                    isEquals = false;
+                }
+            }
+            if (isBetter) {
+                winners.clear();
+                winners.add(this.playersRegistered.get(i));
+            }
+            if (isEquals) {
+                winners.add(this.playersRegistered.get(i));
+            }
+        }
+            return winners;
     }
 
     public void displayHands(){

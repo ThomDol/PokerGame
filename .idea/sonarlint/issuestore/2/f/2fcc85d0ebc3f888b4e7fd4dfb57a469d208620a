@@ -1,10 +1,10 @@
 
 
-java:S1117"7Rename "deck" which hides the field declared at line 8.(ע‚הÿÿÿÿÿ8־²רױפ1J$6c1bb6b0-8318-40ae-82f6-6fcc4731e076
+java:S1117"7Rename "deck" which hides the field declared at line 8.(ע‚הÿÿÿÿÿ8ׂ²לופ1J$5a11dfb3-7549-49e4-86df-46eb7971cf33
 “
-java:S3776"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ß¿˜׳8Ú²רױפ1J$4e2e76f9-3664-46e0-bc05-f7ab6b092019
-m	java:S106)"+Replace this use of System.out by a logger.(קע‚¯8א²רױפ1J$57a54cbd-6e25-4f43-adde-5fc9d4b2c3f5
+java:S3776"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(״‎ְA8א²לופ1J$35f12c26-4698-4988-8b2b-e9dbcc6c18f0
+m	java:S106;"+Replace this use of System.out by a logger.(קע‚¯8ד²לופ1J$8f0e2742-dc98-4c94-a473-61be29c0a437
 ’
-java:S37763"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ת¡­,8ג²רױפ1J$9592035a-a53c-47e3-b91a-ddbe243ded7b
-s
-java:S1068"+Remove this unused "clavier" private field.(€·םֿרÿÿÿÿ8ז²רױפ1J$3baf9199-2299-46d1-807e-d4e9f4e49638
+java:S3776E"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ת¡­,8ז²לופ1J$1354aca9-b30c-482b-9ff8-8f9dd4257da6
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ׂÜֵ¸תÿÿÿÿ8־•–זפ1J$c1a8a1da-6787-48da-be63-6aba31c1c424
