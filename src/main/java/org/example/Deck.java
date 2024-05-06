@@ -3,16 +3,16 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
+
 
 public class Deck {
-    Random random = new Random();
+
     private List<Carte> deck=new ArrayList<>();
     private Couleur [] couleurs = {Couleur.PIQUE,Couleur.COEUR,Couleur.TREFLE,Couleur.CARREAU};
-    private final Index [] listIndex = {Index.DEUX,Index.TROIS,Index.QUATRE,Index.CINQ,Index.SIX,Index.SEPT,Index.HUIT,Index.NEUF,Index.DIX,Index.VALET,Index.DAME, Index.ROI,Index.AS};
+    private static  final Index [] LISTINDEX = {Index.DEUX,Index.TROIS,Index.QUATRE,Index.CINQ,Index.SIX,Index.SEPT,Index.HUIT,Index.NEUF,Index.DIX,Index.VALET,Index.DAME, Index.ROI,Index.AS};
     public Deck (){
         for(Couleur couleur : couleurs){
-            for(Index index:listIndex){
+            for(Index index:LISTINDEX){
                 this.deck.add(new Carte(index,couleur));}}}
 
     public List<Carte> getDeck() {
@@ -20,9 +20,7 @@ public class Deck {
     }
 
     public void addCarte(Hand hand){
-        for (Carte carte:hand.getHandPlayed()){
-            this.deck.add(carte);
-        }
+        this.deck.addAll(hand.getHandPlayed());
     }
 
 
@@ -39,16 +37,14 @@ public class Deck {
         return false;
     }
 
-    public List<Carte> shuffle (){
+    public void shuffle (){
         Collections.shuffle(this.deck);
-        return this.deck;
     }
 
     public Carte dealOneCard (){
-        Carte cardDealt=new Carte();
-        int randomIndex = random.nextInt(this.size());
-        cardDealt=this.deck.get(randomIndex);
-        this.deck.remove(randomIndex);
+
+        Carte cardDealt=this.deck.getFirst();
+        this.deck.removeFirst();
         return cardDealt;
     }
 

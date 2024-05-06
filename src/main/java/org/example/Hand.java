@@ -154,23 +154,31 @@ public class Hand implements Comparable<Hand> {
         return score;
     }
 
+    private String gotQuinteFlushRoyal(){
+        String score="";
+        String [] part = this.gotQuinteFlush().split("/");
+       if(!this.gotQuinteFlush().isEmpty() && Integer.parseInt(part[part.length-1])==10 ){score = "A/"+this.sortResult();}
+       return score;
+    }
+
 
 
 
     private String nameOfHand(){
-        String name="";
-        if(!this.gotNothing().isEmpty()){name= this.gotNothing();}
-        if(!this.gotOnePair().isEmpty()){name= this.gotOnePair();}
-        if(!this.gotTwoPair().isEmpty()){name= this.gotTwoPair();}
-        if(!this.gotBrelan().isEmpty()){name= this.gotBrelan();}
-        if(!this.gotQuinte().isEmpty() && this.gotColor().isEmpty()){name= this.gotQuinte();}
-        if(!this.gotColor().isEmpty() && this.gotQuinte().isEmpty() ){name= this.gotColor();}
-        if(!this.gotFull().isEmpty()){name= this.gotFull();}
-        if (!this.gotSquare().isEmpty()) {name= this.gotSquare();}
-        if(!this.gotQuinteFlush().isEmpty()){name= this.gotQuinteFlush();}
-        return name;
+        if(!this.gotQuinteFlushRoyal().isEmpty()){return  this.gotQuinteFlushRoyal();}
+        else if(!this.gotQuinteFlush().isEmpty()){return this.gotQuinteFlush();}
+        else if (!this.gotSquare().isEmpty()) {return this.gotSquare();}
+        else if(!this.gotFull().isEmpty()){return this.gotFull();}
+        else if (!this.gotColor().isEmpty()){return this.gotColor();}
+        else if(!this.gotQuinte().isEmpty()){return this.gotQuinte();}
+        else if(!this.gotBrelan().isEmpty()){return this.gotBrelan();}
+        else if(!this.gotTwoPair().isEmpty()){return this.gotTwoPair();}
+        else if(!this.gotOnePair().isEmpty()){return this.gotOnePair();}
+        else {return this.gotNothing();}
 
     }
+
+
 
     @Override
     public int compareTo(Hand other) {
@@ -186,6 +194,19 @@ public class Hand implements Comparable<Hand> {
             {j++;}
             return Integer.parseInt(parts[j])-Integer.parseInt(otherParts[j]);
         }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Hand hand = (Hand) o;
+        return Objects.equals(handPlayed, hand.handPlayed);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(handPlayed);
     }
 
 

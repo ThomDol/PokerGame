@@ -1,8 +1,13 @@
 
-
-java:S1117"7Rename "deck" which hides the field declared at line 8.(ò‚äÿÿÿÿÿ8ìõ†éô1J$a86cd674-d7a3-479a-bc47-478d84b2d61b
+¤
+java:S2629M"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¿Ëßæùÿÿÿÿ8…€Óñô1J$6d77ab0e-15d1-4bdf-8424-35f7ff90483d
+„
+java:S4973f"<Strings and Boxed types should be compared using "equals()".(Ì°µûıÿÿÿÿ8ĞŒÖñô1J$09d3181a-a4ee-44a1-8437-77256cce37bd
 “
-java:S3776("QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØıÀA8ğõ†éô1J$2657d3ae-985d-4bb4-8442-4e2268c0e300
-m	java:S106K"+Replace this use of System.out by a logger.(÷ò‚¯8õõ†éô1J$f9c3fb47-284e-4f72-b024-c1e005386562
+java:S3776*"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØıÀA8¯€Óñô1J$cb501860-bc1d-4634-b175-92a5dffbc1fd
+‰
+java:S3457M"AFormat specifiers should be used instead of string concatenation.(¿Ëßæùÿÿÿÿ8³€Óñô1J$31242435-41da-45d0-b4fa-f572ce28cf9c
 ’
-java:S3776U"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8öõ†éô1J$72a698b7-335e-4ea5-a077-db9cc10f38b4
+java:S3776U"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8´€Óñô1J$2b13baae-ea63-419f-a632-46983fb83120
+˜
+java:S3776`"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(†ÌĞÑşÿÿÿÿ8µ€Óñô1J$b8fa339d-1ae7-4bba-9975-f03eb5534690

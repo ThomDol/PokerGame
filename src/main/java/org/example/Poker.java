@@ -1,8 +1,10 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
+
 
 public class Poker {
     private Deck deck;
@@ -14,9 +16,9 @@ public class Poker {
 
 
     public Poker (){
-        Deck deck = new Deck();
-        deck.shuffle();
-        this.deck=deck;
+        Deck newDeck = new Deck();
+        newDeck.shuffle();
+        this.deck=newDeck;
         this.pot=0;
 
     }
@@ -39,7 +41,7 @@ public class Poker {
 
     public List<Player> getWinner(){
         List<Player> winners= new ArrayList<>();
-        winners.add(this.playersRegistered.get(0));
+        winners.add(this.playersRegistered.getFirst());
         for (int i = 1;i<this.playersRegistered.size();i++) {
             boolean isBetter = true;
             boolean isEquals = true;
@@ -72,14 +74,12 @@ public class Poker {
 
     public void displayHands(){
         for(Player player: this.playersRegistered){
-            System.out.println(player.getName()+" : "+player.getHand().toString());
+           Main.LOGGER.trace(player.getName()+" : "+player.getHand().toString());
         }
     }
 
     public void registerPlayers (Player ...players){
-        for(Player player : players ){
-            this.playersRegistered.add(player);
-        }
+        this.playersRegistered.addAll(Arrays.asList(players));
     }
 
     public void start() {
@@ -88,8 +88,20 @@ public class Poker {
             for (int i = 1; i <= numberOfCardByHand; i++) {
                 hand.addCard(deck.dealOneCard());
                 player.setHand(hand);}
-                player.bet(5,this);
+                player.setBet(5,this);
         }
+    }
+
+
+    public boolean areBetEqual(List<Player> players){
+        List<Integer> bets = new ArrayList<>();
+        for (Player player : players){
+            bets.add(player.getBet());
+        }
+        for(Integer num : bets){
+            if(Collections.max(bets)!=num){return false;}
+        }
+        return true;
     }
 
     public void end(){

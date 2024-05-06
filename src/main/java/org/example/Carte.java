@@ -1,15 +1,12 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 import java.util.Objects;
 
 public class Carte implements Comparable<Carte>{
     private Couleur couleur;
     private Index index;
 
-    private List<String> listIndex = new ArrayList<>(Arrays.asList("deux","trois","quatre","cinq","six","sept","huit","neuf","dix","valet","dame","roi","as"));
 
 
 

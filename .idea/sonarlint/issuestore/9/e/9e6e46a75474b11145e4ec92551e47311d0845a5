@@ -1,10 +1,8 @@
 
 V
 java:S1700
-"Rename field "deck"(çëÉ†8¼Øýæô1J$2ffcf653-3aec-4206-9fb6-6035393782d2
+"Rename field "deck"(çëÉ†8¼Øýæô1J$e6395f4b-ce38-4ef5-b846-0d571ae2b428
 “
-java:S3776"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ß†ŸÖ8ÆØýæô1J$a48d0baa-b51c-49eb-a28c-7d9f14d124e8
+java:S3776"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ß†ŸÖ8ÆØýæô1J$85d26233-86fd-4064-9684-c6ff79b83696
 ˜
-java:S3776#"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(§‡¿µüÿÿÿÿ8ÈØýæô1J$2f855b54-a62f-4cbc-a171-04f9ea36a069
-…
-java:S18540"=Remove this useless assignment to local variable "cardDealt".(—ô†¨ýÿÿÿÿ8ÊØýæô1J$35170651-5ac5-4094-956d-f07858654b8c
+java:S3776!"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(§‡¿µüÿÿÿÿ8ÈØýæô1J$49f38dc7-b174-41c3-a8a0-e299aafb51e4

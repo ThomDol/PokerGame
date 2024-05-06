@@ -1,1 +1,67 @@
 [INFO ] 2024-05-06 10:44:30.475 [main] Main - message de info
+[INFO ] 2024-05-06 14:16:18.748 [main] Main - Tom, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:16:58.170 [main] Main - Une, deux, ou trois cartes ?
+[INFO ] 2024-05-06 14:17:02.195 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:17:12.239 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:17:17.915 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:17:28.834 [main] Main - John, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:17:50.710 [main] Main - Une, deux, ou trois cartes ?
+[INFO ] 2024-05-06 14:17:54.975 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:17:57.212 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:17:58.608 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:18:00.030 [main] Main - Franck, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:18:12.888 [main] Main - Winner : Tom
+[INFO ] 2024-05-06 14:57:58.692 [main] Main - Tom, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:58:10.779 [main] Main - Une, deux, ou trois cartes ?
+[INFO ] 2024-05-06 14:58:24.781 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:27.269 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:28.621 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:30.170 [main] Main - John, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:58:49.375 [main] Main - Une, deux, ou trois cartes ?
+[INFO ] 2024-05-06 14:58:52.918 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:54.338 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:55.523 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:58:56.403 [main] Main - Franck, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 14:59:27.598 [main] Main - Une, deux, ou trois cartes ?
+[INFO ] 2024-05-06 14:59:29.355 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:59:31.252 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:59:32.504 [main] Main - Quelle carte, donnez son numéro 
+[INFO ] 2024-05-06 14:59:33.695 [main] Main - Tom, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:01.618 [main] Main - Tom, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:02:06.375 [main] Main - John, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:02:09.302 [main] Main - Franck, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:02:11.988 [main] Main - Tom, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:16.157 [main] Main - Tom, combien misez vous ?
+[INFO ] 2024-05-06 15:02:22.966 [main] Main - John, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:22.966 [main] Main - John, combien misez vous ?
+[INFO ] 2024-05-06 15:02:32.997 [main] Main - Franck, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:32.997 [main] Main - Franck, combien misez vous ?
+[INFO ] 2024-05-06 15:02:44.455 [main] Main - Tom, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:44.455 [main] Main - Tom, combien misez vous ?
+[INFO ] 2024-05-06 15:02:48.189 [main] Main - John, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:48.190 [main] Main - John, combien misez vous ?
+[INFO ] 2024-05-06 15:02:51.027 [main] Main - Franck, désirez vous continuer ?
+[INFO ] 2024-05-06 15:02:51.027 [main] Main - Franck, combien misez vous ?
+[INFO ] 2024-05-06 15:02:53.344 [main] Main - Tom : Neuf de Carreau-Quatre de Pique-Valet de Carreau-As de Coeur-Neuf de Trefle-
+[INFO ] 2024-05-06 15:02:53.345 [main] Main - 80
+[INFO ] 2024-05-06 15:02:53.345 [main] Main - John : Huit de Trefle-Neuf de Coeur-Dame de Pique-Deux de Carreau-Neuf de Pique-
+[INFO ] 2024-05-06 15:02:53.345 [main] Main - 80
+[INFO ] 2024-05-06 15:02:53.346 [main] Main - Franck : Dix de Trefle-Sept de Pique-Six de Pique-Six de Carreau-Huit de Coeur-
+[INFO ] 2024-05-06 15:02:53.346 [main] Main - 80
+[INFO ] 2024-05-06 15:02:53.350 [main] Main - Tom
+[INFO ] 2024-05-06 15:03:43.598 [main] Main - Tom, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:03:47.502 [main] Main - John, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:03:51.510 [main] Main - Franck, voulez vous changer de cartes ? oui ou non
+[INFO ] 2024-05-06 15:03:53.821 [main] Main - Tom, désirez vous continuer ?
+[INFO ] 2024-05-06 15:03:58.049 [main] Main - Tom, combien misez vous ?
+[INFO ] 2024-05-06 15:04:00.446 [main] Main - John, désirez vous continuer ?
+[INFO ] 2024-05-06 15:04:00.447 [main] Main - John, combien misez vous ?
+[INFO ] 2024-05-06 15:04:05.714 [main] Main - Franck, désirez vous continuer ?
+[INFO ] 2024-05-06 15:04:05.715 [main] Main - Franck, combien misez vous ?
+[INFO ] 2024-05-06 15:04:07.828 [main] Main - Tom : Sept de Carreau-Deux de Pique-Dame de Trefle-Huit de Pique-Neuf de Pique-
+[INFO ] 2024-05-06 15:04:07.828 [main] Main - 80
+[INFO ] 2024-05-06 15:04:07.829 [main] Main - John : Dame de Pique-Huit de Carreau-Six de Pique-As de Carreau-Roi de Trefle-
+[INFO ] 2024-05-06 15:04:07.829 [main] Main - 80
+[INFO ] 2024-05-06 15:04:07.829 [main] Main - Franck : Quatre de Carreau-Trois de Coeur-Huit de Trefle-Dix de Coeur-Dix de Carreau-
+[INFO ] 2024-05-06 15:04:07.829 [main] Main - 140
+[INFO ] 2024-05-06 15:04:07.830 [main] Main - Franck

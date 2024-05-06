@@ -25,3 +25,5 @@ S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 U
 %src/main/java/org/example/Player.java,d\b\db455f11f40504110fb1ef2567ff0b7b6044c09c
+Y
+)src/test/java/org/example/PlayerTest.java,8\5\85a14887c1d4d77c17819593997b05057ba7b43c

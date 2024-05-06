@@ -15,6 +15,8 @@ class HandTest {
     Hand handCouleur = new Hand(new Carte(Index.HUIT,Couleur.COEUR),new Carte(Index.VALET,Couleur.COEUR),new Carte(Index.CINQ,Couleur.COEUR),new Carte(Index.SIX,Couleur.COEUR),new Carte(Index.ROI,Couleur.COEUR));
     Hand handQuinteFlush = new Hand(new Carte(Index.DEUX,Couleur.COEUR),new Carte(Index.TROIS,Couleur.COEUR),new Carte(Index.QUATRE,Couleur.COEUR),new Carte(Index.CINQ,Couleur.COEUR),new Carte(Index.SIX,Couleur.COEUR));
     Hand handQuinteFlush2 = new Hand(new Carte(Index.SEPT,Couleur.COEUR),new Carte(Index.QUATRE,Couleur.COEUR),new Carte(Index.TROIS,Couleur.COEUR),new Carte(Index.CINQ,Couleur.COEUR),new Carte(Index.SIX,Couleur.COEUR));
+
+    Hand getHandQuinteFlushRoyal = new Hand(new Carte(Index.DIX,Couleur.CARREAU),new Carte(Index.VALET,Couleur.CARREAU),new Carte(Index.DAME,Couleur.CARREAU),new Carte(Index.ROI,Couleur.CARREAU),new Carte(Index.AS,Couleur.CARREAU));
     Hand handSquare = new Hand(new Carte(Index.VALET,Couleur.COEUR),new Carte(Index.VALET,Couleur.PIQUE),new Carte(Index.VALET,Couleur.TREFLE),new Carte(Index.VALET,Couleur.CARREAU),new Carte(Index.SIX,Couleur.CARREAU));
     Hand handFull = new Hand(new Carte(Index.VALET,Couleur.COEUR),new Carte(Index.VALET,Couleur.PIQUE),new Carte(Index.VALET,Couleur.TREFLE),new Carte(Index.SIX,Couleur.COEUR),new Carte(Index.SIX,Couleur.CARREAU));
     @Test
@@ -23,16 +25,17 @@ class HandTest {
         assertTrue(handTwoPair2.compareTo(handTwoPair)>0);
         assertTrue(handQuinteFlush2.compareTo(handQuinteFlush)>0);
         assertTrue(handQuinte.compareTo(handCouleur)<0);
+        assertTrue(getHandQuinteFlushRoyal.compareTo(handQuinteFlush)>0);
         assertTrue(handNothing2.compareTo(handNothing)<0);
     }
 
     @Test
     void changeCard(){
-        assertEquals(Index.VALET,handFull.getHandPlayed().get(0).getIndex());
-        assertEquals(Couleur.COEUR,handFull.getHandPlayed().get(0).getCouleur());
+        assertEquals(Index.VALET,handFull.getHandPlayed().getFirst().getIndex());
+        assertEquals(Couleur.COEUR,handFull.getHandPlayed().getFirst().getCouleur());
         handFull.changeCard(1,new Carte(Index.AS,Couleur.CARREAU));
-        assertEquals(Index.AS,handFull.getHandPlayed().get(0).getIndex());
-        assertEquals(Couleur.CARREAU,handFull.getHandPlayed().get(0).getCouleur());
+        assertEquals(Index.AS,handFull.getHandPlayed().getFirst().getIndex());
+        assertEquals(Couleur.CARREAU,handFull.getHandPlayed().getFirst().getCouleur());
     }
 
 
