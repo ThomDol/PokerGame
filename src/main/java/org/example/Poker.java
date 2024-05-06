@@ -66,6 +66,22 @@ public class Poker {
             return winners;
     }
 
+    /*public List<Player> getWinners() {
+    List<Player> winners = new ArrayList<>();
+    List<Player> players = new ArrayList<>(this.playersRegistered);
+    Collections.sort(players, Comparator.comparing(Player::getHand).reversed());
+    Player maxHandPlayer = players.get(0);
+    for (Player player : players) {
+        if (player.getHand().compareTo(maxHandPlayer.getHand()) == 0) {
+            winners.add(player);
+        } else {
+
+            break;
+        }
+    }
+    return winners;
+}*/
+
     public void winnerBenefit() {
         if(this.getWinner().size()==1){
             this.getWinner().get(0).setMoney(this.getWinner().get(0).getMoney()+getPot());

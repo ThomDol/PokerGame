@@ -1,13 +1,14 @@
 
 ¤
-java:S2629M"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¿Ëßæùÿÿÿÿ8…€Óñô1J$6d77ab0e-15d1-4bdf-8424-35f7ff90483d
+java:S2629]"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¿Ëßæùÿÿÿÿ8…€Óñô1J$6ea6e3f7-ec51-4ebb-96aa-739be86c57c1
 „
-java:S4973f"<Strings and Boxed types should be compared using "equals()".(Ì°µûýÿÿÿÿ8ÐŒÖñô1J$09d3181a-a4ee-44a1-8437-77256cce37bd
+java:S4973v"<Strings and Boxed types should be compared using "equals()".(Ì°µûýÿÿÿÿ8ÐŒÖñô1J$821c7cbe-071e-40b6-9604-198a81ecd1b0
 “
-java:S3776*"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØýÀA8¯€Óñô1J$cb501860-bc1d-4634-b175-92a5dffbc1fd
+java:S3776*"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØýÀA8¯€Óñô1J$04b190e2-13f0-4b4a-b8f5-5d7697bcd4ab
+~	java:S125E"<This block of commented-out lines of code should be removed.(¢ìÞµ8€Ø¡òô1J$bfe5d6a5-f37c-4dab-84e4-724b2bf7e695
 ‰
-java:S3457M"AFormat specifiers should be used instead of string concatenation.(¿Ëßæùÿÿÿÿ8³€Óñô1J$31242435-41da-45d0-b4fa-f572ce28cf9c
+java:S3457]"AFormat specifiers should be used instead of string concatenation.(¿Ëßæùÿÿÿÿ8³€Óñô1J$e6e0b6fa-0418-48d4-be74-239a877e054f
 ’
-java:S3776U"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8´€Óñô1J$2b13baae-ea63-419f-a632-46983fb83120
+java:S3776e"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8´€Óñô1J$10045d82-278d-4133-b2dd-eb9c3fa664f0
 ˜
-java:S3776`"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(†ÌÐÑþÿÿÿÿ8µ€Óñô1J$b8fa339d-1ae7-4bba-9975-f03eb5534690
+java:S3776p"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(†ÌÐÑþÿÿÿÿ8µ€Óñô1J$e059ce58-b57e-41a1-a199-c38320b92ca2

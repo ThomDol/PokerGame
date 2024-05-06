@@ -165,16 +165,18 @@ public class Hand implements Comparable<Hand> {
 
 
     private String nameOfHand(){
-        if(!this.gotQuinteFlushRoyal().isEmpty()){return  this.gotQuinteFlushRoyal();}
-        else if(!this.gotQuinteFlush().isEmpty()){return this.gotQuinteFlush();}
-        else if (!this.gotSquare().isEmpty()) {return this.gotSquare();}
-        else if(!this.gotFull().isEmpty()){return this.gotFull();}
-        else if (!this.gotColor().isEmpty()){return this.gotColor();}
-        else if(!this.gotQuinte().isEmpty()){return this.gotQuinte();}
-        else if(!this.gotBrelan().isEmpty()){return this.gotBrelan();}
-        else if(!this.gotTwoPair().isEmpty()){return this.gotTwoPair();}
-        else if(!this.gotOnePair().isEmpty()){return this.gotOnePair();}
-        else {return this.gotNothing();}
+        String handName = "";
+        if(!this.gotQuinteFlushRoyal().isEmpty()){handName=  this.gotQuinteFlushRoyal();}
+        else if(!this.gotQuinteFlush().isEmpty()){handName= this.gotQuinteFlush();}
+        else if (!this.gotSquare().isEmpty()) {handName= this.gotSquare();}
+        else if(!this.gotFull().isEmpty()){handName= this.gotFull();}
+        else if (!this.gotColor().isEmpty()){handName= this.gotColor();}
+        else if(!this.gotQuinte().isEmpty()){handName= this.gotQuinte();}
+        else if(!this.gotBrelan().isEmpty()){handName= this.gotBrelan();}
+        else if(!this.gotTwoPair().isEmpty()){handName= this.gotTwoPair();}
+        else if(!this.gotOnePair().isEmpty()){handName= this.gotOnePair();}
+        else {handName= this.gotNothing();}
+        return handName;
 
     }
 
