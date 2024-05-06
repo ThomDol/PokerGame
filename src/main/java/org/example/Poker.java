@@ -9,6 +9,7 @@ public class Poker {
     private List<Player> playersRegistered=new ArrayList<>();
     private int numberOfCardByHand=5;
 
+    private int pot;
 
 
 
@@ -16,7 +17,16 @@ public class Poker {
         Deck deck = new Deck();
         deck.shuffle();
         this.deck=deck;
+        this.pot=0;
 
+    }
+
+    public void setPot(int pot) {
+        this.pot = pot;
+    }
+
+    public int getPot() {
+        return pot;
     }
 
     public Deck getDeck() {
@@ -54,6 +64,12 @@ public class Poker {
             return winners;
     }
 
+    public void winnerBenefit() {
+        if(this.getWinner().size()==1){
+            this.getWinner().get(0).setMoney(this.getWinner().get(0).getMoney()+getPot());
+        }
+    }
+
     public void displayHands(){
         for(Player player: this.playersRegistered){
             System.out.println(player.getName()+" : "+player.getHand().toString());
@@ -71,9 +87,17 @@ public class Poker {
             Hand hand = new Hand();
             for (int i = 1; i <= numberOfCardByHand; i++) {
                 hand.addCard(deck.dealOneCard());
-                player.setHand(hand);
-            }
+                player.setHand(hand);}
+                player.bet(5,this);
         }
+    }
+
+    public void end(){
+        for (Player player:this.playersRegistered){
+            this.deck.addCarte(player.getHand());
+        }
+        this.deck.shuffle();
+
     }
 
 

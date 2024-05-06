@@ -1,9 +1,6 @@
 
-m
-java:S3776"PRefactor this method to reduce its Cognitive Complexity from 7 to the 2 allowed.(Çµí‘8Çõåô1
-L	java:S106"+Replace this use of System.out by a logger.(Õ”´¯ùÿÿÿÿ8Íõåô1
-G	java:S106"+Replace this use of System.out by a logger.(Ñº€¶8Îõåô1
-L	java:S106"+Replace this use of System.out by a logger.(½ÿ»ˆüÿÿÿÿ8Îõåô1
-G	java:S106 "+Replace this use of System.out by a logger.(®ªƒ8Ïõåô1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ñõåô1
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(à˜øÿÿÿÿÿ8‡Ñ¨èô1J$a92d3fef-aca3-4318-b78e-9f6344d31f52
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8óôÌèô1J$5719ed5d-997d-4ed3-ab6c-1e22a8123743
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8óôÌèô1J$4bfa1814-6367-436c-bfdf-d8cf01868a92

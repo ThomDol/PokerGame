@@ -19,6 +19,12 @@ public class Deck {
         return deck;
     }
 
+    public void addCarte(Hand hand){
+        for (Carte carte:hand.getHandPlayed()){
+            this.deck.add(carte);
+        }
+    }
+
 
     public int size(){
         return this.deck.size();
