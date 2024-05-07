@@ -1,14 +1,17 @@
 
+°
+java:S1319."mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(¯–ÿ«8£‡¼õ1J$d72d18fa-ea0a-4cc7-bd53-a78ef87e1b25
 ¤
-java:S2629]"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¿Ëßæùÿÿÿÿ8…€Óñô1J$6ea6e3f7-ec51-4ebb-96aa-739be86c57c1
-„
-java:S4973v"<Strings and Boxed types should be compared using "equals()".(Ì°µûıÿÿÿÿ8ĞŒÖñô1J$821c7cbe-071e-40b6-9604-198a81ecd1b0
+java:S2629]"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¿Ëßæùÿÿÿÿ8¦‡¼õ1J$c794a3ce-29a6-4596-8c5e-1aabfc81e251
+…
+java:S4973‡"<Strings and Boxed types should be compared using "equals()".(Ì°µûıÿÿÿÿ8§‡¼õ1J$74972463-bf9b-4e42-b108-cf0d44982a89
 “
-java:S3776*"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØıÀA8¯€Óñô1J$04b190e2-13f0-4b4a-b8f5-5d7697bcd4ab
-~	java:S125E"<This block of commented-out lines of code should be removed.(¢ìŞµ8€Ø¡òô1J$bfe5d6a5-f37c-4dab-84e4-724b2bf7e695
+java:S37768"QRefactor this method to reduce its Cognitive Complexity from 12 to the 2 allowed.(ØıÀA8Ó‡¼õ1J$c91d6095-076c-4ead-94b1-0194082d2aec
 ‰
-java:S3457]"AFormat specifiers should be used instead of string concatenation.(¿Ëßæùÿÿÿÿ8³€Óñô1J$e6e0b6fa-0418-48d4-be74-239a877e054f
+java:S3457]"AFormat specifiers should be used instead of string concatenation.(¿Ëßæùÿÿÿÿ8×‡¼õ1J$bc0241b0-1c32-45c7-b4b2-867c053e049d
 ’
-java:S3776e"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8´€Óñô1J$10045d82-278d-4133-b2dd-eb9c3fa664f0
-˜
-java:S3776p"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(†ÌĞÑşÿÿÿÿ8µ€Óñô1J$e059ce58-b57e-41a1-a199-c38320b92ca2
+java:S3776e"PRefactor this method to reduce its Cognitive Complexity from 3 to the 2 allowed.(ú¡­,8Ø‡¼õ1J$b2ee3d7d-68ef-4808-92c1-1b24eaf26264
+~	java:S125k"<This block of commented-out lines of code should be removed.(Ã¦´á8Ú‡¼õ1J$5d331d16-a8da-475f-b2c4-6d734fa3ea8b
+™
+java:S3776"PRefactor this method to reduce its Cognitive Complexity from 4 to the 2 allowed.(†ÌĞÑşÿÿÿÿ8Ü‡¼õ1J$51762687-6728-4b3f-97de-998f1e861a84
+	java:S125"<This block of commented-out lines of code should be removed.(¢ìŞµ8İ‡¼õ1J$2fb9c417-4758-44e4-9897-a711d8f6038a

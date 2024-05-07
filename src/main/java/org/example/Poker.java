@@ -1,15 +1,14 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 
 public class Poker {
     private Deck deck;
     private List<Player> playersRegistered=new ArrayList<>();
     private int numberOfCardByHand=5;
+
+    private HashMap<String,Integer> statGameWinner = new HashMap<>();
 
     private int pot;
 
@@ -20,6 +19,7 @@ public class Poker {
         newDeck.shuffle();
         this.deck=newDeck;
         this.pot=0;
+        this.statGameWinner.clear();
 
     }
 
@@ -34,6 +34,20 @@ public class Poker {
     public Deck getDeck() {
         return deck;
     }
+
+    public void setStatGame(Hand hand){
+        String name = hand.nameOfHand().split("/")[1];
+        if(statGameWinner.containsKey(name)){
+            int count = statGameWinner.get(name);
+            statGameWinner.put(name,count+1);}
+        else{statGameWinner.put(name,1);}
+    }
+
+    public HashMap<String,Integer> getStatGame(){
+        return this.statGameWinner;
+    }
+
+
 
     public List<Player> getPlayersRegistered() {
         return playersRegistered;
@@ -66,21 +80,7 @@ public class Poker {
             return winners;
     }
 
-    /*public List<Player> getWinners() {
-    List<Player> winners = new ArrayList<>();
-    List<Player> players = new ArrayList<>(this.playersRegistered);
-    Collections.sort(players, Comparator.comparing(Player::getHand).reversed());
-    Player maxHandPlayer = players.get(0);
-    for (Player player : players) {
-        if (player.getHand().compareTo(maxHandPlayer.getHand()) == 0) {
-            winners.add(player);
-        } else {
 
-            break;
-        }
-    }
-    return winners;
-}*/
 
     public void winnerBenefit() {
         if(this.getWinner().size()==1){
@@ -104,8 +104,25 @@ public class Poker {
             for (int i = 1; i <= numberOfCardByHand; i++) {
                 hand.addCard(deck.dealOneCard());
                 player.setHand(hand);}
-                player.setBet(5,this);
+                //player.setBet(5,this);
         }
+    }
+
+
+    public void end(){
+        for (Player player:this.playersRegistered){
+            this.deck.addCarte(player.getHand());
+            player.getHand().getHandPlayed().clear();
+        }
+        this.deck.shuffle();
+
+    }
+
+    public void party(){
+        this.start();
+        for(Player winners:this.getWinner()){
+        this.setStatGame(winners.getHand());}
+        this.end();
     }
 
 
@@ -120,13 +137,23 @@ public class Poker {
         return true;
     }
 
-    public void end(){
-        for (Player player:this.playersRegistered){
-            this.deck.addCarte(player.getHand());
-        }
-        this.deck.shuffle();
 
+
+     /*public List<Player> getWinners() {
+    List<Player> winners = new ArrayList<>();
+    List<Player> players = new ArrayList<>(this.playersRegistered);
+    Collections.sort(players, Comparator.comparing(Player::getHand).reversed());
+    Player maxHandPlayer = players.get(0);
+    for (Player player : players) {
+        if (player.getHand().compareTo(maxHandPlayer.getHand()) == 0) {
+            winners.add(player);
+        } else {
+
+            break;
+        }
     }
+    return winners;
+}*/
 
 
 

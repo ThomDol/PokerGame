@@ -12,6 +12,12 @@ public class Player {
         this.name=name;
         this.money=money;}
 
+    public Player(String name){
+        this.name=name;
+    }
+
+    public Player(){};
+
     public void setMoney(int money) {
         this.money = money;
     }

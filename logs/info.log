@@ -65,3 +65,23 @@
 [INFO ] 2024-05-06 15:04:07.829 [main] Main - Franck : Quatre de Carreau-Trois de Coeur-Huit de Trefle-Dix de Coeur-Dix de Carreau-
 [INFO ] 2024-05-06 15:04:07.829 [main] Main - 140
 [INFO ] 2024-05-06 15:04:07.830 [main] Main - Franck
+[INFO ] 2024-05-07 09:32:31.872 [main] Main - {Paire=7, 2 paires=3}
+[INFO ] 2024-05-07 09:32:52.463 [main] Main - {Brelan=1, Couleur=1, Paire=7, 2 paires=1}
+[INFO ] 2024-05-07 09:33:03.831 [main] Main - {Brelan=1, Paire=8, 2 paires=1}
+[INFO ] 2024-05-07 09:33:10.745 [main] Main - {Paire=10}
+[INFO ] 2024-05-07 09:33:15.707 [main] Main - {Couleur=1, Paire=6, 2 paires=3}
+[INFO ] 2024-05-07 09:33:23.157 [main] Main - {Paire=9, 2 paires=1}
+[INFO ] 2024-05-07 09:33:28.609 [main] Main - {Paire=8, 2 paires=2}
+[INFO ] 2024-05-07 09:33:33.496 [main] Main - {Brelan=3, Paire=6, 2 paires=1}
+[INFO ] 2024-05-07 09:33:38.948 [main] Main - {Brelan=1, Paire=7, 2 paires=2}
+[INFO ] 2024-05-07 09:33:46.357 [main] Main - {Brelan=1, Paire=5, 2 paires=4}
+[INFO ] 2024-05-07 09:38:20.541 [main] Main - {Quinte=1, Brelan=7, Couleur=2, Paire=24, Full=2, 2 paires=14}
+[INFO ] 2024-05-07 09:38:40.133 [main] Main - {Quinte=3, Brelan=11, Paire=22, 2 paires=14}
+[INFO ] 2024-05-07 09:38:49.329 [main] Main - {Quinte=2, Brelan=8, Paire=25, Full=1, 2 paires=14}
+[INFO ] 2024-05-07 09:38:57.004 [main] Main - {Quinte=1, Brelan=7, Couleur=1, Carré=1, Paire=25, Full=2, 2 paires=13}
+[INFO ] 2024-05-07 09:39:55.453 [main] Main - {Quinte=4, Brelan=10, Couleur=1, Paire=21, 2 paires=14}
+[INFO ] 2024-05-07 09:40:39.825 [main] Main - {Quinte=2, Brelan=11, Couleur=2, Paire=20, 2 paires=15}
+[INFO ] 2024-05-07 09:40:45.010 [main] Main - {Brelan=8, Paire=25, Full=1, 2 paires=16}
+[INFO ] 2024-05-07 09:40:47.463 [main] Main - {Quinte=3, Brelan=11, Couleur=2, Rien=1, Paire=19, Full=1, 2 paires=13}
+[INFO ] 2024-05-07 09:40:51.828 [main] Main - {Quinte=3, Brelan=11, Couleur=1, Paire=24, 2 paires=11}
+[INFO ] 2024-05-07 09:40:54.187 [main] Main - {Quinte=3, Couleur=1, Brelan=3, Paire=27, Full=1, 2 paires=15}

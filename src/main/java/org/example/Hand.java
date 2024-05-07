@@ -69,7 +69,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if((resInt.stream().filter(elem->elem==1).count()==5) && this.gotQuinte().isEmpty()){
-            score="J/"+this.sortResult();
+            score="J/Rien/"+this.sortResult();
         }
         return score;
     }
@@ -77,7 +77,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if ((resInt.stream().filter(elem->elem==2).count()==1) && (resInt.stream().filter(elem->elem==1).count()==3)){
-            score="I/"+this.sortResult();
+            score="I/Paire/"+this.sortResult();
         }
         return score;
     }
@@ -86,7 +86,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if ((resInt.stream().filter(elem->elem==2).count()==2) && (resInt.stream().filter(elem->elem==1).count()==1)){
-            score=  "H/"+this.sortResult();
+            score=  "H/2 paires/"+this.sortResult();
         }
         return score;
     }
@@ -95,7 +95,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if ((resInt.stream().filter(elem->elem==3).count()==1) && (resInt.stream().filter(elem->elem==2).count()==0)){
-            score="G/"+this.sortResult();
+            score="G/Brelan/"+this.sortResult();
         }
         return score;
     }
@@ -104,7 +104,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if (resInt.stream().filter(elem -> elem == 3).count() == 1 && resInt.stream().filter(elem -> elem == 2).count() == 1 ){
-            score= "D/"+this.sortResult();
+            score= "D/Full/"+this.sortResult();
         }
         return score;
     }
@@ -113,7 +113,7 @@ public class Hand implements Comparable<Hand> {
         String score="";
         Collection<Integer> resInt = this.getOccurencesHand();
         if( resInt.stream().filter(elem->elem==4).count()==1){
-            score="C/"+this.sortResult();
+            score="C/Carré/"+this.sortResult();
         }
         return score;
     }
@@ -132,7 +132,7 @@ public class Hand implements Comparable<Hand> {
 
         }
         if (tempQuinte){isQuinte=true;}
-        if(isQuinte){score="F/"+this.sortResult();};
+        if(isQuinte){score="F/Quinte/"+this.sortResult();};
         return score;
     }
 
@@ -142,7 +142,7 @@ public class Hand implements Comparable<Hand> {
         for (int i = 1;i<this.handPlayed.size();i++){
             if(!this.handPlayed.get(i).getCouleur().equals(this.handPlayed.get(0).getCouleur())){isColor=false;}
         }
-        if(isColor){score="E/"+this.sortResult();}
+        if(isColor){score="E/Couleur/"+this.sortResult();}
         return score;
     }
 
@@ -150,21 +150,21 @@ public class Hand implements Comparable<Hand> {
         String score="";
         boolean isQuinteFlush=false;
         if (!this.gotQuinte().isEmpty() && !this.gotColor().isEmpty()){isQuinteFlush= true;}
-        if(isQuinteFlush){score="B/"+this.sortResult();}
+        if(isQuinteFlush){score="B/Quinte Flush/"+this.sortResult();}
         return score;
     }
 
     private String gotQuinteFlushRoyal(){
         String score="";
         String [] part = this.gotQuinteFlush().split("/");
-       if(!this.gotQuinteFlush().isEmpty() && Integer.parseInt(part[part.length-1])==10 ){score = "A/"+this.sortResult();}
+       if(!this.gotQuinteFlush().isEmpty() && Integer.parseInt(part[part.length-1])==10 ){score = "A/Quinte Flush Royale/"+this.sortResult();}
        return score;
     }
 
 
 
 
-    private String nameOfHand(){
+    public String nameOfHand(){
         String handName = "";
         if(!this.gotQuinteFlushRoyal().isEmpty()){handName=  this.gotQuinteFlushRoyal();}
         else if(!this.gotQuinteFlush().isEmpty()){handName= this.gotQuinteFlush();}
@@ -191,7 +191,7 @@ public class Hand implements Comparable<Hand> {
         int res = firstLetter.compareTo(firstLetterOther);
         if (res!=0){return -res;}
         else{
-            int j = 1;
+            int j = 2;
             while(Integer.parseInt(parts[j])==(Integer.parseInt(otherParts[j])) && j<(Integer.min(parts.length,otherParts.length)-1))
             {j++;}
             return Integer.parseInt(parts[j])-Integer.parseInt(otherParts[j]);
